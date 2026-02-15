@@ -25,7 +25,7 @@ copilot-instructions/
 
 ```bash
 cd your-project
-git submodule add https://github.com/touka-aoi/copilot-instructions.git .copilot-instructions
+git submodule add git@github.com:touka-aoi/review-instructions.git .copilot-instructions
 ```
 
 ### 2. シンボリックリンクを作成
@@ -51,7 +51,7 @@ git commit -m "chore: add copilot-instructions"
 
 ```bash
 # clone 時に一緒に取得する場合
-git clone --recurse-submodules https://github.com/yourorg/your-project.git
+git clone --recurse-submodules <your project clone link>
 
 # 既に clone 済みの場合
 git submodule update --init
